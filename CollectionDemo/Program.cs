@@ -70,6 +70,7 @@ namespace CollectionDemo
         private static void Do_Set()
         {
             Console.WriteLine("\nIn Do_Set Demo");
+
             var set = new HashSet<string>();
             set.Add("Shubham");
             set.Add("Ram");
