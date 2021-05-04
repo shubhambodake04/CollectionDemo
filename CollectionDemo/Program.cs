@@ -103,7 +103,7 @@ namespace CollectionDemo
             Console.WriteLine("Dequeued Element :" + dequeue);
 
             Console.WriteLine("\nIterarating the queue elements after dequeue one Element: ");
-            //Iteratring queue elements using Enumerator
+             //Iteratring queue elements using Enumerator
             Queue<string>.Enumerator enumerator = queue.GetEnumerator();
             while (enumerator.MoveNext())
             {
