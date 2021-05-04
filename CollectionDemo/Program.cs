@@ -59,6 +59,7 @@ namespace CollectionDemo
             dictionary.Add(101, "Abhi");
             dictionary.Add(102, "Rushi");
             Console.WriteLine("Access value at key=102 " + dictionary[102]);
+
             Console.WriteLine("\nIterating dictionary ");
             foreach (var element in dictionary)
             {
