@@ -37,6 +37,7 @@ namespace CollectionDemo
         {
             Console.WriteLine("\nIn Do_List Demo");
             List<string> list = new List<string>();
+
             //Adding object to the list
             list.Add("Ravi");
             list.Add("Vijay");
